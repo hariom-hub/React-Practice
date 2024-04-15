@@ -1,6 +1,7 @@
 
 function First(price) {
 
+    console.log(price);
     return (
 
         <div className="box">

@@ -1,5 +1,7 @@
 
-function Third(price) {
+function Third(job) {
+
+    console.log(job);
 
     return (
 

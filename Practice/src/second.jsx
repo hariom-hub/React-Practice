@@ -1,5 +1,6 @@
 
-function Second(price) {
+function Second(age) {
+  console.log(age);
 
     return (
 
