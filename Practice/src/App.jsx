@@ -52,7 +52,7 @@ function App(){
     //   <Student name = "Shreesha" age = "23" rollNo={122}/> */}
     //   <StudentInfo/>
     // </div>
-    <Message userName = "hariom" textColor="black"/>
+    <Message userName = "hariom" textColor="green"/>
 
   )
 }

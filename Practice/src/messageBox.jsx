@@ -1,10 +1,14 @@
-function Message({userName,textColor}){
+function Message({ userName, textColor }) {
 
 
-    let style = {color:textColor};
-    return(
+    let style = { color: textColor };
+    return (
 
-        <h1 style={style}>Hello to, {userName}</h1>
+        <div className="container">
+            <h1 style={style} id="head">Hello to, {userName}</h1>
+            <button>Click to change color</button>
+        </div>
+
     )
 }
 
