@@ -6,6 +6,8 @@
     border-radius: 10px;
     height: 40vh;
     padding:8px ;
+    top: -30px;
+    position: relative;
     margin: 1px 4px;
 }
 .box span{
