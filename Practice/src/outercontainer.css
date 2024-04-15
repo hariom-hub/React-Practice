@@ -1,0 +1,10 @@
+.outer-container {
+
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 20px;
+    height: 60vh;
+
+}

@@ -32,11 +32,13 @@
 // import Second from './second';
 // import Third from './third';
 import './App.css';
-import Student from './students';
-import StudentInfo from './StudentInfo';
-import Message from './messageBox';
+import Container from './container';
+import Boxes from './boxes';
+// import Student from './students';
+// import StudentInfo from './StudentInfo';
+// import Message from './messageBox';
 
-function App(){
+function App() {
 
   return (
 
@@ -52,7 +54,11 @@ function App(){
     //   <Student name = "Shreesha" age = "23" rollNo={122}/> */}
     //   <StudentInfo/>
     // </div>
-    <Message userName = "hariom" textColor="green"/>
+    // <Message userName = "hariom" textColor="green"/>
+    <div className="result">
+      <h3>Block Buster Deals on Computer Accessories | Show Now</h3>
+      <Container/>
+    </div>
 
   )
 }
