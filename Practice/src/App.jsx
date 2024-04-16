@@ -38,6 +38,8 @@ import Boxes from './boxes';
 // import StudentInfo from './StudentInfo';
 // import Message from './messageBox';
 
+import CreateElement from './Events';
+import RemoveElement from './Events';
 function App() {
 
   return (
@@ -55,9 +57,13 @@ function App() {
     //   <StudentInfo/>
     // </div>
     // <Message userName = "hariom" textColor="green"/>
-    <div className="result">
-      <h3>Block Buster Deals on Computer Accessories | Show Now</h3>
-      <Container/>
+    // <div className="result">
+    //   <h3>Block Buster Deals on Computer Accessories | Show Now</h3>
+    //   <Container/>
+    // </div>
+    // <Events/>
+    <div className="task">
+      <CreateElement/>
     </div>
 
   )
