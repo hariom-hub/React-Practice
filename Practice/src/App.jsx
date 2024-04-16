@@ -38,8 +38,8 @@ import Boxes from './boxes';
 // import StudentInfo from './StudentInfo';
 // import Message from './messageBox';
 
-import CreateElement from './Events';
-import RemoveElement from './Events';
+// import Event from './Events';
+import Forms from './forms';
 function App() {
 
   return (
@@ -63,7 +63,9 @@ function App() {
     // </div>
     // <Events/>
     <div className="task">
-      <CreateElement/>
+      {/* <Event/> */}
+      <Forms/>
+      
     </div>
 
   )

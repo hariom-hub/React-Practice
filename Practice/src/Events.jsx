@@ -1,27 +1,11 @@
-let list = document.createElement('li');
-let body = document.querySelector('body');
+export default function Event(){
 
-export default function CreateElement() {
+    return(
 
-    return (
-        <div className="container">
-            <button onClick={() => {
-                list.innerText = "hariom";
-                body.append(list);
-            }}>Create</button>
-            <button onClick={RemoveElement}>Remove</button>
-        </div>
+        <button onClick={showEvent}>click</button>
     )
 }
+function showEvent(event){
 
-function RemoveElement() {
-
-    return (
-
-        <div className="box">
-            {
-
-            }
-        </div>
-    )
+    console.log(event);
 }
