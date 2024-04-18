@@ -13,6 +13,7 @@ export default function CheckLiked() {
         setIsLiked(!isLiked);
         checkLike(!isLike);
         newClicks(clicks + 1);
+        console.log(clicks);
 
     };
 
@@ -27,9 +28,11 @@ export default function CheckLiked() {
                     isLiked ? (<i className="fa-solid fa-heart" style={heartColor}></i>) : (<i class="fa-regular fa-heart"></i>)
                 }
             </p>
+            
             <p>Emotion : {
                 isLike ? ("she loves you ") : "she doesn't loves you"
             }</p>
+            <h4>count = {clicks}</h4>
         </div>
     );
 
